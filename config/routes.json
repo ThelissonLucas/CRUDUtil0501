@@ -1,0 +1,7 @@
+{
+    "accueil": {
+	"controller":"App\\Controller\\DefaultController",
+	"action":"DefaultAction",
+	"acces":[]
+    }
+}

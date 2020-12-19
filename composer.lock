@@ -1,0 +1,29 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "81163cd49a8be82c0b9d344e30f58f90",
+    "packages": [
+        {
+            "name": "phaln/Phaln",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:csi-ort_etudiants/csi_grpavance/phaln.git",
+                "reference": "master"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

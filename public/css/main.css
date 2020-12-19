@@ -1,0 +1,93 @@
+/********** Balises **********/
+body {
+	max-width: 1024px;
+	margin : auto;
+	background-color : CornflowerBlue;
+	color : navy;
+	text-align: justify;
+	font-size:100%;
+}
+
+header {
+	border-bottom : solid navy 2px;
+	background-color : aliceblue;
+	font-family: Helvetica,sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align : center;
+	padding:0.4em;
+	min-height: 100px;
+}
+
+footer {
+	clear : both;
+	display : block;
+	border-top : solid  navy 2px;
+	background-color : aliceblue;
+	font-family: Helvetica,sans-serif;
+	font-size: 0.6em;
+	font-weight: bold;
+	text-align : center;
+	padding:0.25em;
+}
+
+h1 {
+	text-transform:uppercase;
+	margin:0;
+	padding:4px;
+	font-size:130%;
+}
+
+nav {
+	float: left;
+	width:30%;
+	background-color : navy;
+	color:aliceblue;
+	padding: 0;
+	margin:0;
+}
+
+menu {
+	padding:0;
+	margin:0;
+	text-align: center;
+}
+
+menu li {
+	list-style-type:none;
+	font-family: Helvetica,sans-serif;
+	font-size: 0.9em;
+}
+
+menu a {
+	display:block;
+	text-decoration:none;
+	line-height:200%;
+	color:aliceblue;
+	border-bottom:solid aliceblue 1px;
+}
+
+menu a:hover {
+	color:aliceblue;
+	background-color : CornflowerBlue;
+}
+
+.imgLogo {
+    float: left;
+}
+
+#main {
+	padding: 0;
+}
+
+#corps {
+	float:right;
+	min-height:300px;
+	overflow:auto;
+	width:70%;
+	background-color : aliceblue;
+}
+
+#corps p {
+	padding:5px;
+}
