@@ -1,0 +1,13 @@
+# Created by https://www.gitignore.io/api/netbeans
+
+### NetBeans ###
+nbproject
+
+# End of https://www.gitignore.io/api/netbeans
+
+#informations spécifiques à chaque serveur ou développeur
+/config/appConfig.php
+/config/testsConfig.php
+vendor
+/log/phaln.log
+/log/error_log.txt

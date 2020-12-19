@@ -1,0 +1,59 @@
+Installation et configuration de demoPhalnTwig
+
+Pour installer et utiliser l'application, il vous faut:
+- Apache
+- PHP >= 7.1
+- MySQL
+- git
+- composer
+
+Installation:
+
+1) ouvrez un terminal dans le dossier www
+
+2) clonez le projet PhalnApplicationSkeleton (identification sans doute demandée):
+git clone ***
+Vous pouvez renommer le dossier (MyProj par exemple)
+
+3) Rendez-vous dans le dossier MyProj:
+cd MyProj
+
+3) Installer les librairies (identification sans doute demandée):
+composer install
+
+
+Configuration BDD avec PHPMyAdmin
+
+4) créez la base de données (nommée MyProj par exemple)
+
+5) créez ou importez les tables
+
+6) peuplez éventuellement vos tables
+
+
+Configuration minimale de l'application.
+
+7) Copiez le fichier /config/appConfig.local.php vers /config/appConfig.php
+
+8) Editez le fichier /config/appConfig.php
+Ligne 8 mette la constante DUMP à FALSE si vous êtes en production ou si vous ne voulez pas afficher les erreurs et traces de développement
+Ligne 14 renseignez l'url de l'application. Si vous avez suivi l'exemple: http://localhost/MyProj
+Lignes 19 à 26 renseignez les informations concernant l'accès à la base de données créée en 4).
+
+9) Si vous comptez utiliser les fichiers de test contenus dans /tests, vous devez:
+- Copiez le fichier /config/testsConfig.local.php vers /config/testsConfig.php
+- Lignes 19 à 26 renseignez les informations concernant l'accès à la base de données.
+
+
+Si vous utilisez MVC avec la classe Phaln\Router et l'urlRewriting:
+
+10) Renommez le fichier /.htaccess_PourMvc en .htaccess
+
+11) Configuration de l'url-rewriting dans le fichier /.htaccess
+Ligne 10, le chemin doit, à partir de www non compris, indiquer le dossier /public.
+Si vous avez suivi l'exemple: RewriteBase /MyProj/public/
+
+
+L'application est maintenant utilisable à l'url http://localhost/MyProj  (si vous avez suivi l'exemple)
+
+Have fun!!

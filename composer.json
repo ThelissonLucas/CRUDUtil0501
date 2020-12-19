@@ -1,0 +1,26 @@
+{
+    "name": "phaln/phaln-application-skeleton",
+    "description":"Structure d'une application utilisant la librairie Phaln",
+    "license" : "proprietary",
+    "repositories": [
+	{
+	    "type": "package",
+	    "package": {
+		"name": "phaln/Phaln",
+		"version": "2.0",
+		"source": {
+		    "type": "git",
+		    "url": "git@gitlab.com:csi-ort_etudiants/csi_grpavance/phaln.git",
+		    "reference": "master"
+		}
+	    }
+	}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"phaln/phaln": "^2.0"
+    },
+    "config": {
+	"gitlab.com": "secret-account-access-token"
+    }
+}
