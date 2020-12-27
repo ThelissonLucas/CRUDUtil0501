@@ -17,6 +17,7 @@ require_once '../config/appConfig.php';
                         <th>Nom</th>
                         <th>Prenom</th>
                         <th>Mail</th>
+                        <th>role</th>
                     </tr>
                 </thead>
 
