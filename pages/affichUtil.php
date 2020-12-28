@@ -11,16 +11,16 @@ use App\Repositories\PersonneRepository;
       <th scope="col">Nom</th>
       <th scope="col">Prenom</th>
       <th scope="col">Mail</th>
-      <th scope="col">Etat</th>
       <th scope="col">Role</th>
       <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
+
     <?php 
     $personne = New PersonneRepository();
-    foreach($personne->getAll() as $pers)
-        echo '<tr><td>',$pers->getCNom(),'</td><td>',$pers->getCPrenom(),'</td><td>',$pers->getCMail();
+    foreach($personne->getPersonneWRole() as $pers)
+        echo '<tr><td>',$pers['cNom'],'</td><td>',$pers['cPrenom'],'</td><td>',$pers['cMail'],'</td><td>',$pers['cNomRole'];
     ?>
   </tbody>
 </table>
