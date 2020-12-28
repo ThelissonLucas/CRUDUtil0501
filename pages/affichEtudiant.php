@@ -5,7 +5,7 @@ include('../utiles/header.php');
 use App\Repositories\EtudiantRepository;
 
 ?>
-
+<title>Affichage des etudiants</title>
 <table class="table">
   <thead class="thead-dark">
     <tr>

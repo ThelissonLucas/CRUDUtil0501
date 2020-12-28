@@ -4,7 +4,7 @@ include('../utiles/header.php');
 
 use App\Repositories\PersonneRepository;
 ?>
-
+<title>Affichage des utilisateurs</title>
 <table class="table">
   <thead class="thead-dark">
     <tr>

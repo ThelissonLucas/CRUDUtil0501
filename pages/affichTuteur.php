@@ -5,7 +5,7 @@ include('../utiles/header.php');
 use App\Repositories\TuteurRepository;
 
 ?>
-
+<title>Affichage des tuteurs entreprise</title>
 <table class="table">
   <thead class="thead-dark">
     <tr>
