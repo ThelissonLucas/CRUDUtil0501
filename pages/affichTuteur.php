@@ -2,7 +2,8 @@
 require_once '../config/appConfig.php';
 include('../utiles/header.php');
 
-use App\Repositories\PersonneRepository;
+use App\Repositories\TuteurRepository;
+
 ?>
 
 <table class="table">
@@ -18,9 +19,9 @@ use App\Repositories\PersonneRepository;
   <tbody>
 
     <?php 
-    $personne = New PersonneRepository();
-    foreach($personne->getPersonneWRole() as $pers)
-        echo '<tr><td>',$pers['cNom'],'</td><td>',$pers['cPrenom'],'</td><td>',$pers['cMail'],'</td><td>',$pers['cNomRole'];
+    $tuteur = New TuteurRepository();
+    foreach($tuteur->getTuteurs() as $tute)
+        echo '<tr><td>',$tute['cNom'],'</td><td>',$tute['cPrenom'],'</td><td>',$tute['cMail'],'</td><td>',$tute['cNomRole'];
     ?>
   </tbody>
 </table>

@@ -36,23 +36,23 @@
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="../pages/affichUtil.php">
               <span data-feather="home"></span>
-              Utilisateurs
+              Tous les utilisateurs
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">
+            <a class="nav-link" href="../pages/affichEtudiant.php">
               <span data-feather="file"></span>
               Etudiants
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="../pages/affichProf.php">
               <span data-feather="shopping-cart"></span>
               Enseignants
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="../pages/affichTuteur.php">
               <span data-feather="users"></span>
               Tuteurs entreprise
             </a>
