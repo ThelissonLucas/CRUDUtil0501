@@ -18,7 +18,7 @@ class Personne extends AbstractEntity
     protected $cPrenom;
     protected $cMail;
     protected $cMDP;
-    protected $bCacher;
+    protected $bInactif;
     
     private $avoir = null;
     

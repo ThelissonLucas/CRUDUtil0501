@@ -5,6 +5,8 @@ include('../utiles/header.php');
 use App\Repositories\EnseignantRepository;
 
 ?>
+<title>Affichage des professeurs</title>
+
 
 <table class="table">
   <thead class="thead-dark">
