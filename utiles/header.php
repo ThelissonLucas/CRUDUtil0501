@@ -18,13 +18,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Gestion des utilisateurs</a>
+        <a class="nav-link" href="../pages/affichUtil.php">Gestion des utilisateurs</a>
       </li>
     </ul>
   </div>
+
 </nav>
 
 <div class="container-fluid">
