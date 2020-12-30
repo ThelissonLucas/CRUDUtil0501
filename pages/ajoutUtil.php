@@ -13,7 +13,7 @@ include('../utiles/header.php');
     <div class="form-group row">
       <label for="inputNom" class="col-sm-2 col-form-label">Nom :</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" name="nomutil" placeholder="Ex: PROUDHON">
+        <input type="text" class="form-control" name="nomutil" placeholder="Ecrivez le nom de l'utilisateur">
       </div>
     </div>
 
@@ -21,7 +21,7 @@ include('../utiles/header.php');
     <div class="form-group row">
       <label for="inputPrenom" class="col-sm-2 col-form-label">Prenom :</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" name="prenomutil" placeholder="Ex: Pierre-Joseph">
+        <input type="text" class="form-control" name="prenomutil" placeholder="Ecrivez le prénom de l'utilisateur">
       </div>
     </div>
 
@@ -29,7 +29,7 @@ include('../utiles/header.php');
     <div class="form-group row">
       <label for="inputEmail" class="col-sm-2 col-form-label">Adresse mail :</label>
       <div class="col-sm-10">
-      <input type="email" class="form-control" name="emailutil" placeholder="Ex: p.bakou@competences.fr">
+      <input type="email" class="form-control" name="emailutil" placeholder="Ecrivez l'email de l'utilisateur">
       </div>
     </div>
 
@@ -37,7 +37,7 @@ include('../utiles/header.php');
     <div class="form-group row">
       <label for="inputMdp" class="col-sm-2 col-form-label">Mot de passe :</label>
       <div class="col-sm-10">
-        <input type="password" class="form-control" name="mdputil">
+        <input type="password" class="form-control" name="mdputil" placeholder="Ecrivez le mot de passe de l'utilisateur">
       </div>
     </div>
 

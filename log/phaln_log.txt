@@ -307,3 +307,325 @@ Stack trace:
 [28-Dec-2020 14:47:36 UTC] PHP Stack trace:
 [28-Dec-2020 14:47:36 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
 [28-Dec-2020 14:47:36 UTC] PHP   2. App\Repositories\PersonneRepository->getPersonneWRole() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:22
+[30-Dec-2020 20:38:53 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 20:38:53 UTC] PHP Stack trace:
+[30-Dec-2020 20:38:53 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 20:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 20:43:05 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 20:43:05 UTC] PHP Stack trace:
+[30-Dec-2020 20:43:05 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 20:43:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 20:50:21 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 20:50:21 UTC] PHP Stack trace:
+[30-Dec-2020 20:50:21 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 20:50:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:07:31 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 40
+[30-Dec-2020 21:07:31 UTC] PHP Stack trace:
+[30-Dec-2020 21:07:31 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:07:31 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 40
+[30-Dec-2020 21:07:31 UTC] PHP Stack trace:
+[30-Dec-2020 21:07:31 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:07:32 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 40
+[30-Dec-2020 21:07:32 UTC] PHP Stack trace:
+[30-Dec-2020 21:07:32 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:07:32 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 40
+[30-Dec-2020 21:07:32 UTC] PHP Stack trace:
+[30-Dec-2020 21:07:32 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:07:55 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:07:55 UTC] PHP Stack trace:
+[30-Dec-2020 21:07:55 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 21:07:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:07:57 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 40
+[30-Dec-2020 21:07:57 UTC] PHP Stack trace:
+[30-Dec-2020 21:07:57 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:07:57 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 40
+[30-Dec-2020 21:07:57 UTC] PHP Stack trace:
+[30-Dec-2020 21:07:57 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:08:56 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:08:56 UTC] PHP Stack trace:
+[30-Dec-2020 21:08:56 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 21:08:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:09:05 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:09:05 UTC] PHP Stack trace:
+[30-Dec-2020 21:09:05 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 21:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:09:14 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:09:14 UTC] PHP Stack trace:
+[30-Dec-2020 21:09:14 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 21:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:11:10 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:11:10 UTC] PHP Stack trace:
+[30-Dec-2020 21:11:10 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 21:11:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:39 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:39 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:39 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:40 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:40 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Undefined variable: resultat in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:15:45 UTC] PHP Notice:  Trying to access array offset on value of type null in D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php on line 47
+[30-Dec-2020 21:15:45 UTC] PHP Stack trace:
+[30-Dec-2020 21:15:45 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\affichUtil.php:0
+[30-Dec-2020 21:17:38 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:17:38 UTC] PHP Stack trace:
+[30-Dec-2020 21:17:38 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 21:17:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:17:44 UTC] PHP Notice:  Undefined variable: personneModif in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[30-Dec-2020 21:17:44 UTC] PHP Stack trace:
+[30-Dec-2020 21:17:44 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:0
+[30-Dec-2020 21:17:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
