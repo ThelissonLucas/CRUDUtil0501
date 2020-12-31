@@ -629,3 +629,33 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 13
+[31-Dec-2020 14:28:10 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Entities\Personne as array in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:54
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 54
+[31-Dec-2020 14:28:11 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Entities\Personne as array in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:54
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 54
+[31-Dec-2020 14:30:06 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Entities\Personne as array in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php:48
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\modifUtil.php on line 48
+[31-Dec-2020 14:34:50 UTC] PHP Notice:  Undefined index: mdputil in D:\wamp64\www\CRUDUtil0501\pages\saveUtil.php on line 21
+[31-Dec-2020 14:34:50 UTC] PHP Stack trace:
+[31-Dec-2020 14:34:50 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\saveUtil.php:0
+[31-Dec-2020 14:35:29 UTC] PHP Notice:  Undefined index: mdputil in D:\wamp64\www\CRUDUtil0501\pages\saveUtil.php on line 21
+[31-Dec-2020 14:35:29 UTC] PHP Stack trace:
+[31-Dec-2020 14:35:29 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\saveUtil.php:0
+[31-Dec-2020 14:35:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23505]: Unique violation: 7 ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « personne_unique »
+DETAIL:  La clé « (cnom, cprenom)=(Devine, Daniele) » existe déjà. in D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php:370
+Stack trace:
+#0 D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php(370): PDOStatement->execute(Array)
+#1 D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php(472): Phaln\AbstractRepository->insert(Object(App\Entities\Personne))
+#2 D:\wamp64\www\CRUDUtil0501\pages\saveUtil.php(25): Phaln\AbstractRepository->save(Object(App\Entities\Personne))
+#3 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php on line 370
+[31-Dec-2020 14:37:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setCNom() on null in D:\wamp64\www\CRUDUtil0501\pages\saveMUtil.php:22
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\saveMUtil.php on line 22

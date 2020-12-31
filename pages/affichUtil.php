@@ -14,6 +14,7 @@ use App\Repositories\PersonneRepository;
 <table class="table">
   <thead class="thead-dark">
     <tr>
+      <th scope="col"></th>
       <th scope="col">Nom</th>
       <th scope="col">Prenom</th>
       <th scope="col">Mail</th>
@@ -37,12 +38,12 @@ use App\Repositories\PersonneRepository;
     $personne = New PersonneRepository();
     foreach($personne->getPersonneWRole() as $pers){
         echo '<tr>';
-        echo '<input type="hidden" name="idpersonne" value="'.$pers['iIdPersonne'].'">';
+        echo '<td> <input type="hidden" name="idpersonne" value="'.$pers['iIdPersonne'].'"> </td>';
         echo '<td>',$pers['cNom'],'</td>';
         echo '<td>',$pers['cPrenom'],'</td>';
         echo '<td>',$pers['cMail'],'</td>';
         echo '<td>',$pers['cNomRole'],'</td>';
-        echo '<td>','<a href="modifUtil.php"> Modifier </a>','</td>';
+        echo '<td>','<a href="modifUtil.php?id='.$pers['iIdPersonne'].'""> Modifier </a>','</td>';
         echo '<td>','<a href="deletUtil.php"> Supprimer </a>','</td>';
         echo '<td>';
     }
