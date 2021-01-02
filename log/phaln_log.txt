@@ -659,3 +659,26 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in D:\wamp64\www\CRUDUtil0501\pages\saveMUtil.php on line 22
+[02-Jan-2021 17:17:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23505]: Unique violation: 7 ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « personne_unique »
+DETAIL:  La clé « (cnom, cprenom)=(Devine, Daniel) » existe déjà. in D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php:443
+Stack trace:
+#0 D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php(443): PDOStatement->execute(Array)
+#1 D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php(469): Phaln\AbstractRepository->update(Object(App\Entities\Personne))
+#2 D:\wamp64\www\CRUDUtil0501\pages\saveMUtil.php(29): Phaln\AbstractRepository->save(Object(App\Entities\Personne))
+#3 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php on line 443
+[02-Jan-2021 17:17:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23505]: Unique violation: 7 ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « personne_unique »
+DETAIL:  La clé « (cnom, cprenom)=(Devine, Daniel) » existe déjà. in D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php:443
+Stack trace:
+#0 D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php(443): PDOStatement->execute(Array)
+#1 D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php(469): Phaln\AbstractRepository->update(Object(App\Entities\Personne))
+#2 D:\wamp64\www\CRUDUtil0501\pages\saveMUtil.php(29): Phaln\AbstractRepository->save(Object(App\Entities\Personne))
+#3 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\vendor\phaln\Phaln\AbstractRepository.php on line 443
+[02-Jan-2021 17:19:34 UTC] PHP Notice:  Undefined variable: personneSuppr in D:\wamp64\www\CRUDUtil0501\pages\deletUtil.php on line 10
+[02-Jan-2021 17:19:34 UTC] PHP Stack trace:
+[02-Jan-2021 17:19:34 UTC] PHP   1. {main}() D:\wamp64\www\CRUDUtil0501\pages\deletUtil.php:0
+[02-Jan-2021 17:19:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in D:\wamp64\www\CRUDUtil0501\pages\deletUtil.php:10
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\CRUDUtil0501\pages\deletUtil.php on line 10

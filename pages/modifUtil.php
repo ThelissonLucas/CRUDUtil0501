@@ -10,7 +10,7 @@ $Personne = new PersonneRepository;
 $personneModif = $Personne->getById($idPersonne);
 $idcurperso = $personneModif->getid();
 
-var_dump($idcurperso);
+//var_dump($idcurperso);
 
 ?>
 

@@ -13,11 +13,11 @@ use App\Repositories\AvoirRepository;
 // $roleutil = $_POST['roleutil'];
 
 $idPersonne = $_POST['idpersonne']; 
-var_dump($idPersonne);
+//var_dump($idPersonne);
 $Personne = new PersonneRepository;
 $personneModif = $Personne->getById($idPersonne);
 
-var_dump($personneModif);
+//var_dump($personneModif);
 
 if($roleutil = 'etudiant'){ 
     $personneModif->setCNom($_POST['nomutil']);

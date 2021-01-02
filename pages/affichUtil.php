@@ -44,7 +44,7 @@ use App\Repositories\PersonneRepository;
         echo '<td>',$pers['cMail'],'</td>';
         echo '<td>',$pers['cNomRole'],'</td>';
         echo '<td>','<a href="modifUtil.php?id='.$pers['iIdPersonne'].'""> Modifier </a>','</td>';
-        echo '<td>','<a href="deletUtil.php"> Supprimer </a>','</td>';
+        echo '<td>','<a href="deletUtil.php?id='.$pers['iIdPersonne'].'""> Supprimer </a>','</td>';
         echo '<td>';
     }
     ?>
