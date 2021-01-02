@@ -8,7 +8,9 @@ use App\Repositories\PersonneRepository;
 $idPersonne = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT); // On filtre/nettoie la variable en GET
 $Personne = new PersonneRepository;
 $personneModif = $Personne->getById($idPersonne);
+$idcurperso = $personneModif->getid();
 
+var_dump($idcurperso);
 
 ?>
 
@@ -17,6 +19,8 @@ $personneModif = $Personne->getById($idPersonne);
 <h1 style="text-align: center;"> Modifier un utilisateur </h1>
 
 <form action="saveMUtil.php" method="POST">
+
+  <input type="hidden" name="idpersonne" value=" <?php echo $idcurperso; ?>">
 
     <!-- Nom de l'utilisateur -->
     <div class="form-group row">
@@ -43,7 +47,7 @@ $personneModif = $Personne->getById($idPersonne);
     </div>
 
 
-    <!-- Rôle de l'utilisateur -->
+    <!-- Rôle de l'utilisateur
     <fieldset class="form-group">
     <div class="row">
       <legend class="col-form-label col-sm-2 pt-0">Rôle :</legend>
@@ -74,7 +78,7 @@ $personneModif = $Personne->getById($idPersonne);
         </div>
     </div>
   </fieldset>
-
+              -->
   <div class="col-auto">
       <button type="submit" class="btn btn-primary mb-2">Créer un utilisateur</button>
     </div>
