@@ -13,8 +13,8 @@ use App\Repositories\AvoirRepository;
 $roleutil = $_POST['roleutil'];
 
 
-if($roleutil = 'etudiant'){ // ETUDIANT
-    $personne = New Personne(); // On créé la personne 
+if($roleutil = 'etudiant'){ 
+    $personne = New Personne(); 
     $personne->setCNom($_POST['nomutil']);
     $personne->setCPrenom($_POST['prenomutil']);
     $personne->setCMail($_POST['emailutil']);
@@ -22,16 +22,16 @@ if($roleutil = 'etudiant'){ // ETUDIANT
     $personne->setBInactif(0);
 
     $PersonneRepository = New PersonneRepository;
-    $data = $PersonneRepository->save($personne); // On ajoute la personne dans la BDD
+    $data = $PersonneRepository->save($personne); 
 
-    $avoirEtudiant = New Avoir(); // On créé un objet avoir pour le rôle Etudiant
-    $avoirEtudiant->setiIdRole(4); // 1 pour le rôle du Etudiant
+    $avoirEtudiant = New Avoir(); 
+    $avoirEtudiant->setiIdRole(4);
     $avoirEtudiant->setiIdPersonne($data->getId());
 
-    $AvoirRepo = New AvoirRepository; // On ajoute le rôle correspondants dans la BDD
+    $AvoirRepo = New AvoirRepository;
     $AvoirRepo->save($avoirEtudiant);
 
-    echo("<script>location.href = '../pages/affichUtil.php';</script>"); // Redirection vers la liste des personnes
+    echo("<script>location.href = '../pages/affichUtil.php';</script>"); 
 }
 else if($roleutil = 'tuteur'){
     $personne = New Personne(); // On créé la personne 
@@ -42,16 +42,16 @@ else if($roleutil = 'tuteur'){
     $personne->setBInactif(0);
 
     $PersonneRepository = New PersonneRepository;
-    $data = $PersonneRepository->save($personne); // On ajoute la personne dans la BDD
+    $data = $PersonneRepository->save($personne); 
 
-    $avoirEtudiant = New Avoir(); // On créé un objet avoir pour le rôle Etudiant
-    $avoirEtudiant->setiIdRole(3); // 1 pour le rôle du tuteur
+    $avoirEtudiant = New Avoir(); 
+    $avoirEtudiant->setiIdRole(3);
     $avoirEtudiant->setiIdPersonne($data->getId());
 
-    $AvoirRepo = New AvoirRepository; // On ajoute le rôle correspondants dans la BDD
+    $AvoirRepo = New AvoirRepository; 
     $AvoirRepo->save($avoirEtudiant);
 
-    echo("<script>location.href = '../pages/affichUtil.php';</script>"); // Redirection vers la liste des personnes
+    echo("<script>location.href = '../pages/affichUtil.php';</script>"); 
 }
 else if($roleutil = 'enseignant'){
     $personne = New Personne(); // On créé la personne 
@@ -62,16 +62,16 @@ else if($roleutil = 'enseignant'){
     $personne->setBInactif(0);
 
     $PersonneRepository = New PersonneRepository;
-    $data = $PersonneRepository->save($personne); // On ajoute la personne dans la BDD
+    $data = $PersonneRepository->save($personne); 
 
-    $avoirEtudiant = New Avoir(); // On créé un objet avoir pour le rôle Etudiant
-    $avoirEtudiant->setiIdRole(2); // 1 pour le rôle du Etudiant
+    $avoirEtudiant = New Avoir(); 
+    $avoirEtudiant->setiIdRole(2);
     $avoirEtudiant->setiIdPersonne($data->getId());
 
-    $AvoirRepo = New AvoirRepository; // On ajoute le rôle correspondants dans la BDD
+    $AvoirRepo = New AvoirRepository; 
     $AvoirRepo->save($avoirEtudiant);
 
-    echo("<script>location.href = '../pages/affichUtil.php';</script>"); // Redirection vers la liste des personnes
+    echo("<script>location.href = '../pages/affichUtil.php';</script>"); 
 }
 else if($roleutil = 'admin'){
     $personne = New Personne(); // On créé la personne 
@@ -82,13 +82,13 @@ else if($roleutil = 'admin'){
     $personne->setBInactif(0);
 
     $PersonneRepository = New PersonneRepository;
-    $data = $PersonneRepository->save($personne); // On ajoute la personne dans la BDD
+    $data = $PersonneRepository->save($personne); 
 
-    $avoirEtudiant = New Avoir(); // On créé un objet avoir pour le rôle Etudiant
-    $avoirEtudiant->setiIdRole(1); // 1 pour le rôle du Etudiant
+    $avoirEtudiant = New Avoir(); 
+    $avoirEtudiant->setiIdRole(1);
     $avoirEtudiant->setiIdPersonne($data->getId());
 
-    $AvoirRepo = New AvoirRepository; // On ajoute le rôle correspondants dans la BDD
+    $AvoirRepo = New AvoirRepository; 
     $AvoirRepo->save($avoirEtudiant);
 
     echo("<script>location.href = '../pages/affichUtil.php';</script>"); // Redirection vers la liste des personnes

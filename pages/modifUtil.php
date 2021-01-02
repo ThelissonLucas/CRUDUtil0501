@@ -2,18 +2,31 @@
 require_once '../config/appConfig.php';
 include('../utiles/header.php');
 
+use App\Repositories\RoleRepository;
+use App\Repositories\PersonneRepository;
+
+$idPersonne = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT); // On filtre/nettoie la variable en GET
+$Personne = new PersonneRepository;
+$personneModif = $Personne->getById($idPersonne);
+$idcurperso = $personneModif->getid();
+
+//var_dump($idcurperso);
+
 ?>
-<title>Ajout d'un Utilisateur</title>
 
-<h1 style="text-align: center;"> Ajouter un utilisateur </h1>
+<title>Modification d'un Utilisateur</title>
 
-<form action="saveUtil.php" method="POST">
+<h1 style="text-align: center;"> Modifier un utilisateur </h1>
+
+<form action="saveMUtil.php" method="POST">
+
+  <input type="hidden" name="idpersonne" value=" <?php echo $idcurperso; ?>">
 
     <!-- Nom de l'utilisateur -->
     <div class="form-group row">
       <label for="inputNom" class="col-sm-2 col-form-label">Nom :</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" name="nomutil" placeholder="Ecrivez le nom de l'utilisateur">
+        <input type="text" class="form-control" name="nomutil" value="<?php echo $personneModif->getCNom(); ?>">
       </div>
     </div>
 
@@ -21,7 +34,7 @@ include('../utiles/header.php');
     <div class="form-group row">
       <label for="inputPrenom" class="col-sm-2 col-form-label">Prenom :</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" name="prenomutil" placeholder="Ecrivez le prénom de l'utilisateur">
+        <input type="text" class="form-control" name="prenomutil" value="<?php echo $personneModif->getCPrenom(); ?>">
       </div>
     </div>
 
@@ -29,19 +42,12 @@ include('../utiles/header.php');
     <div class="form-group row">
       <label for="inputEmail" class="col-sm-2 col-form-label">Adresse mail :</label>
       <div class="col-sm-10">
-      <input type="email" class="form-control" name="emailutil" placeholder="Ecrivez l'email de l'utilisateur">
+      <input type="email" class="form-control" name="emailutil" value="<?php echo $personneModif->getCMail(); ?>">
       </div>
     </div>
 
-    <!-- Mot de passe de l'utilisateur -->
-    <div class="form-group row">
-      <label for="inputMdp" class="col-sm-2 col-form-label">Mot de passe :</label>
-      <div class="col-sm-10">
-        <input type="password" class="form-control" name="mdputil" placeholder="Ecrivez le mot de passe de l'utilisateur">
-      </div>
-    </div>
 
-    <!-- Rôle de l'utilisateur -->
+    <!-- Rôle de l'utilisateur
     <fieldset class="form-group">
     <div class="row">
       <legend class="col-form-label col-sm-2 pt-0">Rôle :</legend>
@@ -72,7 +78,7 @@ include('../utiles/header.php');
         </div>
     </div>
   </fieldset>
-
+              -->
   <div class="col-auto">
       <button type="submit" class="btn btn-primary mb-2">Créer un utilisateur</button>
     </div>
@@ -80,7 +86,6 @@ include('../utiles/header.php');
 
 
 </form>
-
 
 
 <?php include('../utiles/footer.php'); ?>
