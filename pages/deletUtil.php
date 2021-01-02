@@ -4,10 +4,10 @@ include('../utiles/header.php');
 
 use App\Repositories\PersonneRepository;
 
-$idPersonne = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT); // On filtre/nettoie la variable en GET
+$idPersonne = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
 $Personne = new PersonneRepository;
 $persodelete = $Personne->getById($idPersonne);
-$Personne->deleteById($persodelete->getId()); // On supprime la personne selectionnée
+$Personne->deleteById($persodelete->getId());
 echo("<script>location.href = '../pages/affichUtil.php';</script>"); // Redirection vers la liste des personnes
 ?>
 
