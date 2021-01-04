@@ -10,10 +10,11 @@ use App\Repositories\PersonneRepository;
 use App\Repositories\EtudiantRepository;
 use App\Repositories\AvoirRepository;
 
-$roleutil = $_POST['roleutil'];
+//$roleutil = $_POST['roleutil'];
 
+//var_dump($roleutil);
 
-if($roleutil = 'etudiant'){ 
+if(!empty($_POST['radioetudiant'])){ 
     $personne = New Personne(); 
     $personne->setCNom($_POST['nomutil']);
     $personne->setCPrenom($_POST['prenomutil']);
@@ -21,6 +22,7 @@ if($roleutil = 'etudiant'){
     $personne->setCMDP(password_hash($_POST['mdputil'], PASSWORD_BCRYPT));
     $personne->setBInactif(0);
 
+    var_dump("coucou");
     $PersonneRepository = New PersonneRepository;
     $data = $PersonneRepository->save($personne); 
 
@@ -31,9 +33,9 @@ if($roleutil = 'etudiant'){
     $AvoirRepo = New AvoirRepository;
     $AvoirRepo->save($avoirEtudiant);
 
-    echo("<script>location.href = '../pages/affichUtil.php';</script>"); 
+    //echo("<script>location.href = '../pages/affichUtil.php';</script>"); 
 }
-else if($roleutil = 'tuteur'){
+else if(!empty($_POST['radiotuteur'])){
     $personne = New Personne(); // On créé la personne 
     $personne->setCNom($_POST['nomutil']);
     $personne->setCPrenom($_POST['prenomutil']);
@@ -44,16 +46,16 @@ else if($roleutil = 'tuteur'){
     $PersonneRepository = New PersonneRepository;
     $data = $PersonneRepository->save($personne); 
 
-    $avoirEtudiant = New Avoir(); 
-    $avoirEtudiant->setiIdRole(3);
-    $avoirEtudiant->setiIdPersonne($data->getId());
+    $avoirTuteur = New Avoir(); 
+    $avoirTuteur->setiIdRole(3);
+    $avoirTuteur->setiIdPersonne($data->getId());
 
     $AvoirRepo = New AvoirRepository; 
-    $AvoirRepo->save($avoirEtudiant);
+    $AvoirRepo->save($avoirTuteur);
 
-    echo("<script>location.href = '../pages/affichUtil.php';</script>"); 
+    //echo("<script>location.href = '../pages/affichUtil.php';</script>"); 
 }
-else if($roleutil = 'enseignant'){
+else if(!empty($_POST['radioenseignant'])){
     $personne = New Personne(); // On créé la personne 
     $personne->setCNom($_POST['nomutil']);
     $personne->setCPrenom($_POST['prenomutil']);
@@ -64,16 +66,16 @@ else if($roleutil = 'enseignant'){
     $PersonneRepository = New PersonneRepository;
     $data = $PersonneRepository->save($personne); 
 
-    $avoirEtudiant = New Avoir(); 
-    $avoirEtudiant->setiIdRole(2);
-    $avoirEtudiant->setiIdPersonne($data->getId());
+    $avoirEnseignant = New Avoir(); 
+    $avoirEnseignant->setiIdRole(2);
+    $avoirEnseignant->setiIdPersonne($data->getId());
 
     $AvoirRepo = New AvoirRepository; 
-    $AvoirRepo->save($avoirEtudiant);
+    $AvoirRepo->save($avoirEnseignant);
 
-    echo("<script>location.href = '../pages/affichUtil.php';</script>"); 
+    //echo("<script>location.href = '../pages/affichUtil.php';</script>"); 
 }
-else if($roleutil = 'admin'){
+else if(!empty($_POST['radioadmin'])){
     $personne = New Personne(); // On créé la personne 
     $personne->setCNom($_POST['nomutil']);
     $personne->setCPrenom($_POST['prenomutil']);
@@ -84,14 +86,14 @@ else if($roleutil = 'admin'){
     $PersonneRepository = New PersonneRepository;
     $data = $PersonneRepository->save($personne); 
 
-    $avoirEtudiant = New Avoir(); 
-    $avoirEtudiant->setiIdRole(1);
-    $avoirEtudiant->setiIdPersonne($data->getId());
+    $avoirAdmin = New Avoir(); 
+    $avoirAdmin->setiIdRole(1);
+    $avoirAdmin->setiIdPersonne($data->getId());
 
     $AvoirRepo = New AvoirRepository; 
-    $AvoirRepo->save($avoirEtudiant);
+    $AvoirRepo->save($avoirAdmin);
 
-    echo("<script>location.href = '../pages/affichUtil.php';</script>"); // Redirection vers la liste des personnes
+    //echo("<script>location.href = '../pages/affichUtil.php';</script>"); // Redirection vers la liste des personnes
 }
 
 ?>

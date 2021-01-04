@@ -80,7 +80,7 @@ $idcurperso = $personneModif->getid();
   </fieldset>
               -->
   <div class="col-auto">
-      <button type="submit" class="btn btn-primary mb-2">Créer un utilisateur</button>
+      <button type="submit" class="btn btn-primary mb-2">Modifier un utilisateur</button>
     </div>
 
 
