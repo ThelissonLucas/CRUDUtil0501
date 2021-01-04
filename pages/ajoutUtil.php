@@ -47,25 +47,25 @@ include('../utiles/header.php');
       <legend class="col-form-label col-sm-2 pt-0">Rôle :</legend>
       <div class="col-sm-10">
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="roleutil" id="gridRadios1" value="admin">
+          <input class="form-check-input" type="radio" name="radioadmin" id="gridRadios1" >
           <label class="form-check-label" for="gridRadios1">
             Admin
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="roleutil" id="gridRadios2" value="etudiant">
+          <input class="form-check-input" type="radio" name="radioetudiant" id="gridRadios2">
           <label class="form-check-label" for="gridRadios2">
             Etudiant
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="roleutil" id="gridRadios2" value="enseignant">
+          <input class="form-check-input" type="radio" name="radioenseignant" id="gridRadios2" >
           <label class="form-check-label" for="gridRadios2">
             Enseignant
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="roleutil" id="gridRadios2" value="tuteur">
+          <input class="form-check-input" type="radio" name="radiotuteur" id="gridRadios2" >
           <label class="form-check-label" for="gridRadios2">
             Tuteur
           </label>
